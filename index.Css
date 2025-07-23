@@ -53,7 +53,7 @@ a:focus-visible {
   top: 0;
   height: 64px;
   backdrop-filter: blur(16px);
-  background: rgba(113, 11, 93, 0.75);
+  background: rgb(247, 94, 183);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
@@ -103,7 +103,7 @@ a:focus-visible {
 }
 
 .hero {
-  background: rgba(225, 125, 217, 0.8);
+  background: rgb(250, 203, 231);
   backdrop-filter: blur(16px);
   border-radius: 24px;
   margin: 0 24px 24px;
@@ -115,7 +115,7 @@ a:focus-visible {
 .hero-content h1 {
   font-size: 2.2rem;
   margin-bottom: 10px;
-  color: #8b026e;
+  color: #ff57bf;
   white-space: nowrap; 
   overflow: hidden;
   text-overflow: ellipsis; 
@@ -125,7 +125,7 @@ a:focus-visible {
 .hero-content p {
   font-size: clamp(1.1rem, 2vw, 1.25rem);
   margin-bottom: 30px;
- color: #8b026e;
+ color: #fd049e;
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -141,7 +141,7 @@ a:focus-visible {
   cursor: pointer;
   font-size: clamp(1rem, 2vw, 1.125rem);
   color: #1e1e1e;
-  background: linear-gradient(135deg, #4ade80 0%, #6366f1 100%);
+  background: linear-gradient(135deg, #4ade80 0%, #ff93ed 100%);
   transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 
@@ -177,7 +177,7 @@ a:focus-visible {
   background: rgba(57, 88, 147, 0.8);
   border-radius: 24px;
   padding: 32px;
-  box-shadow: 0 12px 24px rgba(152, 16, 136, 0.479);
+  box-shadow: 0 12px 24px rgb(250, 1, 175);
   max-width: 320px;
   width: 100%;
   transition: box-shadow 0.3s ease, transform 0.25s ease;
